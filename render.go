@@ -48,7 +48,7 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/oxtoacart/bpool"
+	"github.com/scalingdata/go-oxtoacart-bpool"
 
 	"github.com/scalingdata/go-martini"
 )
