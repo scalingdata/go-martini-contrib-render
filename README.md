@@ -1,7 +1,7 @@
 # render [![wercker status](https://app.wercker.com/status/fcf6b26a1b41f53540200b1949b48dec "wercker status")](https://app.wercker.com/project/bykey/fcf6b26a1b41f53540200b1949b48dec)
 Martini middleware/handler for easily rendering serialized JSON, XML, and HTML template responses.
 
-[API Reference](http://godoc.org/github.com/martini-contrib/render)
+[API Reference](http://godoc.org/github.com/scalingdata/go-martini-contrib-render)
 
 ## Usage
 render uses Go's [html/template](http://golang.org/pkg/html/template/) package to render html templates.
@@ -11,8 +11,8 @@ render uses Go's [html/template](http://golang.org/pkg/html/template/) package t
 package main
 
 import (
-  "github.com/go-martini/martini"
-  "github.com/martini-contrib/render"
+  "github.com/scalingdata/go-martini"
+  "github.com/scalingdata/go-martini-contrib-render"
 )
 
 func main() {
@@ -119,8 +119,8 @@ package main
 import (
   "encoding/xml"
 
-  "github.com/go-martini/martini"
-  "github.com/martini-contrib/render"
+  "github.com/scalingdata/go-martini"
+  "github.com/scalingdata/go-martini-contrib-render"
 )
 
 type Greeting struct {
@@ -166,8 +166,8 @@ package main
 import (
   "encoding/xml"
 
-  "github.com/go-martini/martini"
-  "github.com/martini-contrib/render"
+  "github.com/scalingdata/go-martini"
+  "github.com/scalingdata/go-martini-contrib-render"
 )
 
 type Greeting struct {

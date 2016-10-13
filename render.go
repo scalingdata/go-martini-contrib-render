@@ -5,8 +5,8 @@
 //  import (
 //    "encoding/xml"
 //
-//    "github.com/go-martini/martini"
-//    "github.com/martini-contrib/render"
+//    "github.com/scalingdata/go-martini"
+//    "github.com/scalingdata/go-martini-contrib-render"
 //  )
 //
 //  type Greeting struct {
@@ -50,7 +50,7 @@ import (
 
 	"github.com/oxtoacart/bpool"
 
-	"github.com/go-martini/martini"
+	"github.com/scalingdata/go-martini"
 )
 
 const (
